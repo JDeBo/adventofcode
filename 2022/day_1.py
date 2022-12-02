@@ -8,6 +8,7 @@ def calc_groups(input_list: str):
     sum_splits = [sum(x) for x in int_splits]
     sum_splits.sort(reverse=True)
     print(sum_splits[0])
+    print(sum(sum_splits[:3]))
 
 calc_groups(input1)
 # print(input1)
